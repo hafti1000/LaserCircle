@@ -66,8 +66,8 @@ void printd(int i)
 void loop()
 {
 
-          y=r*sin((t-90)*3.151/180);
-          x=r*sin(t*3.151/180);
+          y=r*sin((t-90)*3.141/180);
+          x=r*sin(t*3.141/180);
           Yservo.write(posy=y*0.7+y0);
           Xservo.write(posx=x+x0);
               lcd.setCursor(0,0);
